@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Caprasimo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Salsa&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.carpointtxt {
+    font-family: "Caprasimo", serif;
+    font-family: "Calistoga", serif !important;
+}
+
+.carpointtxt2 {
+
+    font-family: "Salsa", cursive;
+    font-family: "Calistoga", serif !important;
+    letter-spacing: 1px;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.mt-10 {
+    margin-top: 100px !important;
+}
+
+.pt-10 {
+    padding-top: 130px !important;
+}
+
+.liteblue {
+    background-color: rgb(220, 255, 254);
+
+}
+
+.litecol2 {
+    background-color: rgb(236, 247, 246)
+}
+
+.litecol3 {
+    background-color: rgb(157, 245, 240);
+
+}
+
+:root {
+    --sha: 0 0 15px rgba(0, 0, 0, 0.3) !important;
+    --bg: antiquewhite;
+    --bg2: rgb(255, 0, 106);
+    --bg3: rgb(255, 0, 76);
+    --bg4: rgb(255, 115, 0);
+}
+
+.green {
+    background-color: limegreen !important;
+}
+
+.btnhoverb:hover {
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btnhoverp:hover {
+    background-color: rgb(251, 0, 46) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.c1 {
+    color: rgb(255, 0, 76);
+}
+
+.bg4 {
+    background-color: var(--bg4);
+
+}
+
+.bg-black {
+    background-color: black;
+
+}
+
+.bg3 {
+    background-color: var(--bg3);
+
+
+}
+
+.bg2 {
+    background-color: var(--bg2);
+
+
+}
+
+.bg {
+    background-color: var(--bg);
+}
+
+.shadow1 {
+    box-shadow: var(--sha);
+}
+
+.homefonttsha {
+    text-shadow: 0 0 10px black;
+
+}
+
+@media screen and (min-width:800px) and (max-width:5000px) {
+    .homefont {
+        font-size: 50px !important;
+        text-shadow: 0 0 10px black;
+
+    }
+
+}
+
+
+.homebg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./img/carbg2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.navli a {
+    border-radius: 5px;
+}
+
+.navli a:hover {
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+}
+
+.navz {
+    z-index: 9999;
+
+}
+
+.homecontent {
+    min-height: 87vh;
+}
+
+
+
+.branch1 {
+    width: 300px !important;
+    box-shadow: var(--sha);
+}
+
+
+.bran {
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.bran .icon {
+    font-size: 30px;
+    background-color: rgb(234, 234, 234);
+    width: 60px;
+
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bran .left {
+    width: 30%;
+}
+
+.bran .right {
+    width: 70%;
+}
+
+/* ---------------------car run img---------- */
+.carrunall {
+    width: 80%;
+
+}
+
+
+
+.carrunimg {
+    animation-name: carroll;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carroll {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-100%);
+    }
+}
+
+.carrunimg div {
+    width: 200px;
+    height: 150px;
+    border: 8px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3)inset;
+    border-radius: 2px;
+
+}
+
+.carrunimg div img {
+    width: 184px;
+    height: 134px;
+    object-fit: cover;
+}
+
+.smallcar {
+    width: 140px !important;
+}
+
+@media screen and (max-width:600px) {
+    .carrunall {
+        width: 100%;
+    }
+
+    @keyframes carroll {
+        0% {
+            transform: translate(0%);
+        }
+
+        100% {
+            transform: translate(-220%);
+        }
+    }
+}
+
+/* ------------------new car style-------- */
+.car1 {
+    width: 350px !important;
+
+}
+
+.hover {
+    transition: 1s;
+
+}
+
+.car1:hover .hover {
+    transform: translateX(50px) !important;
+}
+
+.heartp {
+    position: relative;
+}
+
+.heartc {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: rgb(255, 9, 70);
+    font-size: 23px;
+}
+
+.runcar {
+    width: 100px;
+}
+
+/* -----------------------sroll animation-------------- */
+.slani {
+    animation: srcoll linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+@keyframes srcoll {
+    from {
+
+        transform: scale(0.8);
+
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+/* ---------------popular car-------------- */
+.Popularcar {
+    margin-top: 80px;
+}
+
+.car1 {
+    box-shadow: var(--sha);
+}
+
+/* -----------------services------------ */
+.sha {
+    box-shadow: var(--sha);
+}
+
+.radi img {
+    border-radius: 10px !important;
+}
+
+
+
+@media screen and (min-width:900px) and (max-width:3000px) {
+    .serviceimg {
+        width: 70% !important;
+    }
+
+}
+
+
+@media screen and (max-width:770px) {
+    .disnone1 {
+        display: none;
+    }
+}
+
+
+/* -------------client testimonial------------ */
+.test1 {
+    width: 300px;
+}
+
+.testimonial {
+    background-color: rgb(185, 214, 221) !important;
+}
+
+
+.footer {
+    background-image: url("./img/Untitled\ design\ \(10\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* ------------about-------------- */
+
+
+
+.abouttext {
+    padding-top: 120px !important;
+
+}
+
+
+
+
+
+/* ----------------------location-------------- */
+@media screen and (max-width:575px) {
+    .locleft {
+        width: 100% !important;
+    }
+}
+
+
+/* -------------------service-------------- */
+
+@media screen and (max-width:767px) {
+
+    .serleft {
+        width: 100% !important;
+    }
+
+    .serleftbox2 {
+        width: 30% !important;
+    }
+
+    .serleftbox1 {
+        width: 70% !important;
+    }
+
+    .mobmargin {
+        margin-top: 30px !important;
+    }
+}
+
+/* -----------login-------- */
+.blur {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px !important;
+}
+
+.carjump {
+    animation-name: jump;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    0% {
+        transform: translatey(0px);
+
+    }
+
+    30% {
+        transform: rotate(5deg);
+
+    }
+
+    50% {
+
+        transform: scale(1.2);
+
+    }
+
+    80% {
+        transform: translatey(0px);
+        transform: rotate(-5deg);
+    }
+}
+
+.carjump2 {
+    animation-name: jump2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump2 {
+    0% {
+        transform: translatey(0px);
+
+    }
+
+    50% {
+        transform: translatey(10px);
+
+
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.loginbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("./img/pink9.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.radius10 {
+    border-radius: 10px !important;
+}
+
+
+/* --------------whatsapp---- */
+.whatsapp {
+    z-index: 888;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 178, 0);
+    border-radius: 50%;
+    font-size: 21px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 0 15px rgb(0, 178, 0);
+}
+
+/* ------------mobile view------------ */
+@media screen and (max-width:460px) {
+    .branch1 {
+        width: 98% !important;
+    }
+
+    .newcarbox1 .car1 {
+        width: 98% !important;
+    }
+}
